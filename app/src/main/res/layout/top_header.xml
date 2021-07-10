@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="1dp"
+    android:layout_weight="7">
+    <TextView
+        android:id="@+id/menuTv"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:maxLines="1"
+        android:gravity="center"
+        android:text="Menu"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:id="@+id/priceTv"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:minHeight="50dp"
+        android:background="@drawable/back"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Price" />
+
+    <TextView
+        android:id="@+id/qty_tv"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:minHeight="50dp"
+        android:background="@drawable/back"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Qty"
+     />
+
+    <TextView
+        android:id="@+id/discTv"
+        android:background="@drawable/back"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:minHeight="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" Amt/%" />
+
+    <TextView
+        android:id="@+id/totalTv"
+        android:background="@drawable/back"
+        android:layout_width="0dp"
+        android:layout_weight="1.2"
+        android:minHeight="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Total" />
+
+    <TextView
+        android:id="@+id/action"
+        android:background="@drawable/back"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:minHeight="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Del" />
+
+
+</LinearLayout>

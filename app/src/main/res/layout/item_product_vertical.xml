@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="16dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="16sp"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/placeholder"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:layout_marginVertical="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cabin_medium"
+                android:text="Name"
+                android:layout_marginVertical="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cabin_medium"
+                android:text="Stock: 410"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cabin_medium"
+                android:text="desc"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cabin_medium"
+                android:text="$100"
+                android:textAlignment="center"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Add To Cart"
+            android:backgroundTint="@color/blue"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"/>
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

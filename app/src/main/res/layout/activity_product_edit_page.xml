@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Product Name"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/selecter_edit_text"
+            android:fontFamily="@font/cabin_medium"
+            android:hint="Eg.Kebin"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Product Code"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/Code"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/selecter_edit_text"
+            android:fontFamily="@font/cabin_medium"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Product Category"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/selecter_edit_text"
+            android:fontFamily="@font/cabin_medium"
+            android:inputType="text"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Unit Product By Price"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/selecter_edit_text"
+            android:fontFamily="@font/cabin_medium"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Unit Product Sell Price"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/selecter_edit_text"
+            android:fontFamily="@font/cabin_medium"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Product Stock"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/selecter_edit_text"
+            android:fontFamily="@font/cabin_medium"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Product Weight"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/selecter_edit_text"
+            android:fontFamily="@font/cabin_medium"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/textColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Select Product  Unit"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/WeightSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/selecter_edit_text"
+            android:fontFamily="@font/cabin_medium"
+            android:inputType="text"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Select Suuplier"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:id="@+id/supplierSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/selecter_edit_text"
+            android:fontFamily="@font/cabin_medium"
+            android:inputType="text"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textColor="@color/textColor"
+            android:textSize="16sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ChooseProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Choose Product Image"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="@dimen/_16sdp"
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:background="@drawable/placeholder"
+            android:scaleType="centerCrop" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/updateInfo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:layout_marginEnd="@dimen/_16sdp"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/cabin_medium"
+            android:text="Update Information"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="@dimen/_16sdp"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>

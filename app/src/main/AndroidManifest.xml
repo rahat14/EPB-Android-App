@@ -11,7 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Epbpos">
-        <activity android:name=".ui.PosPage"></activity>
+        <activity
+            android:name=".ui.ProductSearch"
+            android:exported="true" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.NewPosActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.ProductEditPage"
+            android:exported="true" />
+        <activity android:name=".ui.PosPage" />
         <activity android:name=".ui.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

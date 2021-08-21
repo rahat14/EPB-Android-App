@@ -3,19 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/box.xml" value="0.3567708333333333" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/consumer.xml" value="0.3567708333333333" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.3567708333333333" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.3567708333333333" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/ic_baseline_remove_circle_outline_24.xml" value="0.3567708333333333" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/ic_pos.xml" value="0.3567708333333333" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/ic_sharp_close_24.xml" value="0.3567708333333333" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/ic_tools.xml" value="0.3567708333333333" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/manufacture.xml" value="0.3567708333333333" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/report.xml" value="0.3567708333333333" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/drawable/selecter_edit_text.xml" value="0.3567708333333333" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_all_orders.xml" value="0.340625" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_cart.xml" value="0.340625" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_customers.xml" value="0.33" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_main.xml" value="0.3353846153846154" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_new_pos.xml" value="0.340625" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_pos_page.xml" value="0.3353846153846154" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_product_edit_page.xml" value="0.340625" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_product_search.xml" value="0.340625" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_report.xml" value="0.340625" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_settings.xml" value="0.340625" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/activity_suppliers.xml" value="0.340625" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/item_Category_vertical.xml" value="0.340625" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/item_category_vertical.xml" value="0.340625" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/item_cutomers.xml" value="0.340625" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/item_expense.xml" value="0.340625" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/item_order_history.xml" value="0.340625" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/item_product.xml" value="0.3353846153846154" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/item_product_horizontral.xml" value="0.340625" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/item_product_vertical.xml" value="0.340625" />
+        <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/item_supplier.xml" value="0.340625" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/row_cart_item.xml" value="0.340625" />
         <entry key="..\:/AKR/EPB Android App/app/src/main/res/layout/top_header.xml" value="0.3353846153846154" />
       </map>

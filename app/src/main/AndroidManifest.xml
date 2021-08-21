@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Epbpos">
         <activity
+            android:name=".ui.suppliers"
+            android:exported="true" />
+        <activity
+            android:name=".ui.Customers"
+            android:exported="true" />
+        <activity
+            android:name=".Report"
+            android:exported="true" />
+        <activity
+            android:name=".Settings"
+            android:exported="true" />
+        <activity
+            android:name=".ui.AllOrders"
+            android:exported="true" />
+        <activity
             android:name=".ui.ProductSearch"
             android:exported="true" />
         <activity

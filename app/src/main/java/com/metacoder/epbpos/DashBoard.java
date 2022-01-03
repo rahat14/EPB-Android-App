@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.metacoder.epbpos.ui.AllOrders;
 import com.metacoder.epbpos.ui.Customers;
+import com.metacoder.epbpos.ui.Expenses;
 import com.metacoder.epbpos.ui.PosPage;
 import com.metacoder.epbpos.ui.ProductSearch;
 import com.metacoder.epbpos.ui.suppliers;
@@ -23,6 +24,7 @@ public class DashBoard extends AppCompatActivity {
 
         findViewById(R.id.supplier).setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), suppliers.class)));
 
+        findViewById(R.id.expense).setOnClickListener(v -> startActivity(new Intent(getApplicationContext(),  Expenses.class)));
 
         findViewById(R.id.settings).setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), Settings.class)));
 

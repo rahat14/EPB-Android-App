@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Epbpos">
         <activity
+            android:name=".ui.Expenses"
+            android:exported="true" />
+        <activity
             android:name=".ui.suppliers"
             android:exported="true" />
         <activity

@@ -51,6 +51,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         tools:listitem="@layout/item_order_history"
+        android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

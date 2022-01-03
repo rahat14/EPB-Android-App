@@ -33,6 +33,7 @@
 
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
             android:layout_width="match_parent"
             tools:listitem="@layout/item_cutomers"
             android:layout_height="wrap_content"/>
